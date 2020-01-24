@@ -1,6 +1,42 @@
 h1 {
-  color:#ff4faa
+  color:#ff4faa;
+  font-size:6vh
+}
+h2 {
+  color:#ff4faa;
+  font-size:4vh
+}
+h3 {
+  color:#ff4faa;
+  font-size:4vh
 }
 p {
   color:#5a6eb0
+}
+a {
+  color:#64a378
+}
+.purpletext {
+  color:#6c5794
+}
+.bluetext {
+  color:#2e2abd
+}
+.greentext {
+  color: #5c7a33
+}
+.magentatext {
+  color:#b34d86
+}
+.katieprofpic {
+  width:50%
+}
+.babykatie {
+  width:50%
+}
+.katiepage {
+  background-color: #ffe8f5
+}
+.resumelink {
+  font-size:4vh
 }
