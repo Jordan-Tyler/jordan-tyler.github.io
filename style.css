@@ -38,5 +38,9 @@ a {
   background-color: #ffe8f5
 }
 .resumelink {
-  font-size:4vh
+  font-size:4vh;
+  text-shadow: 0 0 6px #73a9ff
+}
+.titletext {
+  text-shadow: 0 0 6px #73a9ff
 }
