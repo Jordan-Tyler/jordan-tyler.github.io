@@ -1,0 +1,65 @@
+body{
+  background-color: #c2fff9;
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 0px
+}
+.container{
+  position: relative;
+  height: 100vh;
+  width: 100vh;
+  background-color: pink;
+  margin:auto;
+  margin-top: auto;
+  overflow: auto;
+}
+.navbar{
+  width: 550px;
+  height: 100px;
+  background: #abffd5;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.button{
+  width: 120px;
+  height: 80px;
+  background:#d6c2ff;
+  float:left;
+  text-align: center;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.articles{
+  width: 280px;
+  height: 280px;
+  margin-left: 50px;
+  margin-top: 30px;
+  background:#ffffc2;
+  float:left;
+}
+
+.articles:hover{
+
+background-color: pink;
+}
+.button:hover {
+  color: blue;
+  opacity: 0.5;
+}
+
+.image {
+  background: url('https://i.redd.it/fifvijr9fdu11.jpg');
+  width: 80%;
+  height: 500px;
+  margin-left: 10%;
+  margin-top: 10px;
+}
+
+.image:hover{
+  background: url('https://i.imgur.com/cu2x6Z7.jpg');
+
+}
+.dog img{
+
+}

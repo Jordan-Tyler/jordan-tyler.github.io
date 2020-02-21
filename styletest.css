@@ -1,0 +1,25 @@
+.editing {
+  margin-left: 100px;
+  margin-right: 10px;
+  background-color: blue;
+  padding: 50px;
+  width: 200px;
+  height: 200px;
+  border-radius: 300px;
+  border-style: dotted;
+}
+.bodytext {
+  border-color: blue;
+  border-style: groove;
+background-color: purple;
+width: 200px;
+height: 200px;
+text-decoration: underline;
+text-decoration-color: blue;
+
+}
+.baby {
+  background-color: green;
+  width: 50%;
+  height: 50%;
+}

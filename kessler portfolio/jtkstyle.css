@@ -1,0 +1,89 @@
+body{
+  background-image: url("beach.jpg");
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px
+}
+.container{
+  position: relative;
+  height: 100vh;
+  width: 190vh;
+  margin:auto;
+  margin-top: auto;
+  overflow: auto;
+}
+.navbar{
+  position: absolute;
+  width: 700px;
+  height: 70px;
+  top: 15px;
+  right: 0px;
+}
+.logo{
+  margin-top: 10px;
+  margin-left: 0px;
+  height: 88px;
+  width: 583px;
+}
+.button{
+  width: 100px;
+  height: 50px;
+  float:left;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+h1:hover {
+  color: #006a91;
+  opacity: 0.5;
+}
+h1 {
+  font-size: 20px;
+  font-family: 'Nunito';
+}
+
+a{
+  font-size: 20px;
+  font-family: 'Nunito';
+  color: black;
+  text-decoration: none;
+}
+.insta{
+  position: absolute;
+  left: 700px;
+  bottom: 20px;
+  height: 35px;
+  width: 35px;
+}
+
+.insta img {
+  width: 100%;
+}
+
+.button:hover .hidden{
+  display: block;
+}
+
+.hidden {
+  display: none;
+  transform: translate(0px,-10px);
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  border-radius: 5px;
+}
+h2 {
+  font-size: 15px;
+  font-family: 'Nunito';
+}
+.linkedin{
+  position: absolute;
+  left: 900px;
+  bottom: 20px;
+  height: 35px;
+  width: 35px;
+}
+.linkedin img{
+  width: 100%;
+}
