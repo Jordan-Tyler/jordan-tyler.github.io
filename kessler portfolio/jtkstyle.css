@@ -7,7 +7,7 @@ body{
 }
 .container{
   position: relative;
-  height: 100vh;
+  height: 120vh;
   width: 190vh;
   margin:auto;
   margin-top: auto;
@@ -22,7 +22,7 @@ body{
 }
 .logo{
   margin-top: 10px;
-  margin-left: 0px;
+  margin-left: 10px;
   height: 88px;
   width: 583px;
 }
@@ -42,7 +42,10 @@ h1 {
   font-size: 20px;
   font-family: 'Nunito';
 }
-
+h2:hover {
+  color: #006a91;
+  opacity: 0.5;
+}
 a{
   font-size: 20px;
   font-family: 'Nunito';
@@ -70,7 +73,7 @@ a{
   transform: translate(0px,-10px);
   border-style: solid;
   border-width: 1px;
-  border-color: gray;
+  border-color: grey;
   border-radius: 5px;
 }
 h2 {
@@ -86,4 +89,26 @@ h2 {
 }
 .linkedin img{
   width: 100%;
+}
+.resume {
+  height: 125vh;
+  width: 100vh;
+  float: center;
+  background-color: #ebfdff;
+  position: absolute;
+  left: 40vh;
+  top: 20vh;
+  color: #ebfdff;
+  border: 0px;
+}
+.aboutimg img {
+  height: 100vh;
+  width:auto;
+  position: absolute;
+  left: 10vh;
+  top: 13vh;
+}
+
+#resume{
+  height: 160vh;
 }
