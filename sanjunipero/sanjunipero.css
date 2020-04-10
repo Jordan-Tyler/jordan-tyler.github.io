@@ -1,13 +1,9 @@
 body{
   background-color: #e6e6da;
   font-family: 'Indie Flower', cursive;
+  text-shadow: 4px 4px 8px #a1c1b2;
 }
-.container{
-width: 1600px;
-height: 900px;
-margin-top: auto;
-position: relative;
-}
+
 .logo{
   background-color: #a1c1b2;
   border-color: black;
@@ -16,13 +12,28 @@ position: relative;
   width: 500px;
   height: 120px;
   font-size: 5vh;
-  margin-top: 50px;
-  margin-left: 50px;
+  top: 50px;
+  left: 50px;
+  padding-bottom: 10px;
 }
 .comic{
-  width: 100px;
-  height: 100px;
-  margin-top: 40px;
-  margin-left: 100px;
-  position: relative;
+  position: absolute;
+  top: 160px;
+  left: 300px;
+}
+
+#rightarrow{
+  position: absolute;
+  top: 350px;
+  left: 1000px;
+  z-index: 81;
+  font-size: 40px;
+}
+
+#leftarrow{
+  position: absolute;
+  top: 350px;
+  left: 230px;
+  z-index: 81;
+  font-size: 40px;
 }
